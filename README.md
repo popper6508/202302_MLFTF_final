@@ -9,7 +9,9 @@ VKOSPI는 KOSPI200에 대한 옵션가격을 통해 산출되는 시장 변동�
 
 ----
 **1. 본 연구에서 활용한 설명변수 목록**  
-![image](https://github.com/popper6508/202302_MLFTF_Project/assets/118153199/4b81c3ac-8585-465f-940d-413c5948b8a4)
+![image](https://github.com/popper6508/202302_MLFTF_final/assets/118153199/1fc1633f-fb60-48df-969a-c7e295a4064a)
+
 
 **2. 본 연구에서 활용한 Multi-Layer LSTM 구조**  
-![image](https://github.com/popper6508/202302_MLFTF_Project/assets/118153199/8ef13ff7-5b44-4bb4-b7f6-7bfa051c7b78)
+![image](https://github.com/popper6508/202302_MLFTF_final/assets/118153199/c2f20d48-3b3a-49d0-9937-51cfe54eed35)
+

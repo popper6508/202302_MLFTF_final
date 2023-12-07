@@ -10,6 +10,18 @@ data <- as.data.frame(read_xlsx("./Data/data_raw_weekly.xlsx")) %>% data.matrix(
 
 data <- data[2:nrow(data), 2:ncol(data)]
 
+adf.t=ur.df(log(data[,1]))
+
+adf.t@testreg
+
+pp.t=ur.pp(log(data[,1]))
+
+pp.t@testreg
+
+kpss.t=ur.kpss(log(data[,1]))
+
+kpss.t@teststat
+
 ######## ADF Test ########
 ## 1st ADF Test ##
 rep <- ncol(data)

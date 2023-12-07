@@ -654,7 +654,6 @@ harx4 <- ar.rolling.window(har_data_t, 112, 1, 8)
 
 ## har
 har_Data <- har_data_t[,1:3]
-<<<<<<< HEAD
 
 har1 <- ar.rolling.window(har_Data, 112, 1, 1)
 har2 <- ar.rolling.window(har_Data, 112, 1, 2)
@@ -664,7 +663,6 @@ har4 <- ar.rolling.window(har_Data, 112, 1, 8)
 load('har_result.RData')
 
 # save.image("har_result.RData")
-=======
 
 har1 <- ar.rolling.window(har_Data, 112, 1, 1)
 har2 <- ar.rolling.window(har_Data, 112, 1, 2)
